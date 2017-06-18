@@ -1,10 +1,13 @@
-var db = null;
+var db_config = {
+  name: 'example.db',
+  location: 'default'
+};
 
 document.addEventListener('deviceready', function() {
 
   db = window.sqlitePlugin.openDatabase({
-    name: 'notes.db',
-    location: 'default'
+    name: db_config.name,
+    location: db_config.location
   });
 
 
