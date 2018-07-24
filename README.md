@@ -1,6 +1,6 @@
 # cordova-sqlite-storage-js
 
-Javascript library for use cordova-sqlite-storage plugin easily
+Javascript library to use cordova-sqlite-storage plugin easily
 
 ## Configure
 
